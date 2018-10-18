@@ -25,6 +25,16 @@ object learningScala3 {
     val x=10;val y=20
     val max=if(x>y) x else y
     println(max)
-  }
 
+    //match操作
+    val status = 500
+    val message = status match {
+      case 200 => "ok"
+      case 400 => { println("ERROR-1")
+        "error"}
+      case 500 => { println("ERROR-2")
+        "error"}
+    }
+    println(message)
+  }
 }
