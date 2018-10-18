@@ -2,7 +2,7 @@
   * Created by dell on 2018/10/16.
   * 第二章 处理数据：字面量、值、变量和类型
   */
-object leaningScala2 {
+object learningScala2 {
   def main(args: Array[String]): Unit = {
 
     val world = "world"
